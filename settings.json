@@ -1,0 +1,42 @@
+{
+    "horizonCompany": {
+        "name": "Horizon Automotive SpA",
+        "office": "Via Copernico 4, 20090 Trezzano Sul Naviglio",
+        "partitaIva": "IT11133990967"
+    },
+    "horizonContacts": {
+        "email": "info@horizonautomotive.it",
+        "telephone": "+39 02 48338400",
+        "whatsapp": "+39 345 9798135"
+    },
+    "horizonOffices": [
+        {
+            "name": "Sede Centrale Milano",
+            "address": "Via Copernico 4, 20090 Trezzano Sul Naviglio"
+        },
+        {
+            "name": "Sede Bergamo",
+            "address": "Via per Grumello 43/A, 24127 Bergamo"
+        },
+        {
+            "name": "Sede Padova",
+            "address": "Viale della Navigazione Interna 60, 35129 Padova"
+        },
+        {
+            "name": "Sede Torino",
+            "address": "Corso Susa 242, 10098 Rivoli"
+        },
+        {
+            "name": "Sede San Benedetto del Tronto",
+            "address": "Via Pomezia 3, 63074 San Benedetto del Tronto"
+        }
+    ],
+    "horizonSocials": {
+        "facebookUrl": "https://www.facebook.com/horizonautomotive.srl/",
+        "instagramUrl": "https://www.instagram.com/horizon.automotive/",
+        "linkedinUrl": "https://www.linkedin.com/company/horizon-automotive-srl/",
+        "youtubeUrl": "https://www.youtube.com/channel/UCM9rglwPt0-0JMafvoLMLdQ/"
+    },
+    "horizonIndexScoreMax": 0.15,
+    "horizonIndexScoreWeight": 10000
+}
