@@ -1,21 +1,5 @@
 {
-    "horizonCompany": {
-        "name": "Horizon Automotive SpA",
-        "office": "Via Copernico 4, 20090 Trezzano Sul Naviglio",
-        "partitaIva": "W0309666F"
-    },
-    "horizonContacts": {
-        "email": "info@horizonautomotive.it",
-        "telephone": "+39 02 48338400",
-        "whatsapp": "+39 345 9798135"
-    },
     "horizonOffices": [],
-    "horizonSocials": {
-        "facebookUrl": "",
-        "instagramUrl": "",
-        "linkedinUrl": "https://www.linkedin.com/company/horizon-automotive-spain/",
-        "youtubeUrl": ""
-    },
     "horizonIndexScoreMax": 0.15,
     "horizonIndexScoreWeight": 10000
 }
