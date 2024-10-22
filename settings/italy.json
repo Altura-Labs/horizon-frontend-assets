@@ -1,4 +1,41 @@
 {
+    "carBadges": {
+        "electric": ["elettric"],
+        "hybrid": ["bev", "fcev", "hev", "erev"]
+    },
+    "carVersionFuelMap": {
+        "senza piombo": "benzina",
+        "senza piombo \"premium\"": "benzina"
+    },
+    "configuratorFilterFuel": {
+        "gasoline": {
+            "value": "senza piombo",
+            "engines": null
+        },
+        "gasoil": {
+            "value": "diesel",
+            "engines": null
+        },
+        "electric": {
+            "value": "elettric",
+            "engines": null
+        },
+        "gpl": {
+            "value": "gpl",
+            "engines": null
+        },
+        "gasolineHybrid": {
+            "value": "senza piombo",
+            "engines": ["bev", "fcev", "hev", "erev"]
+        },
+        "gasoilHybrid": {
+            "value": "diesel",
+            "engines": ["bev", "fcev", "hev", "erev"]
+        }
+    },
+    "configuratorFilterStyle": ["Green", "Berlina", "Citycar", "Familiare/Lavoro", "Sportiva", "Suv/Crossover"],
+    "horizonIndexScoreMax": 0.15,
+    "horizonIndexScoreWeight": 10000,
     "horizonOffices": [
         {
             "name": "Sede Centrale Milano",
@@ -21,6 +58,5 @@
             "address": "Via Pomezia 3, 63074 San Benedetto del Tronto"
         }
     ],
-    "horizonIndexScoreMax": 0.15,
-    "horizonIndexScoreWeight": 10000
+    "telephonePrefix": "+39"
 }
