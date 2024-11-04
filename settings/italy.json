@@ -34,6 +34,7 @@
         }
     },
     "configuratorFilterStyle": ["Green", "Berlina", "Citycar", "Familiare/Lavoro", "Sportiva", "Suv/Crossover"],
+    "headerSearch": true,
     "horizonIndexScoreMax": 0.15,
     "horizonIndexScoreWeight": 10000,
     "horizonOffices": [
