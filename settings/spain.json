@@ -1,0 +1,42 @@
+{
+    "carBadges": {
+        "electric": ["eléctric"],
+        "hybrid": ["bev", "fcev", "hev", "erev"]
+    },
+    "carVersionFuelMap": {
+        "sin plomo": "gasolina",
+        "alto octanaje sin plomo": "gasolina"
+    },
+    "configuratorFilterFuel": {
+        "gasoline": {
+            "value": "sin plomo",
+            "engines": null
+        },
+        "gasoil": {
+            "value": "diésel",
+            "engines": null
+        },
+        "electric": {
+            "value": "eléctric",
+            "engines": null
+        },
+        "gpl": {
+            "value": "glp",
+            "engines": null
+        },
+        "gasolineHybrid": {
+            "value": "sin plomo",
+            "engines": ["bev", "fcev", "hev", "erev"]
+        },
+        "gasoilHybrid": {
+            "value": "diésel",
+            "engines": ["bev", "fcev", "hev", "erev"]
+        }
+    },
+    "configuratorFilterStyle": ["Green", "Berlina", "Citycar", "Familiare/Lavoro", "Sportiva", "Suv/Crossover"],
+    "headerSearch": false,
+    "horizonIndexScoreMax": 0.15,
+    "horizonIndexScoreWeight": 10000,
+    "horizonOffices": [],
+    "telephonePrefix": "+34"
+}
