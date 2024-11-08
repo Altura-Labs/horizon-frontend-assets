@@ -1,7 +1,7 @@
 {
     "carBadges": {
         "electric": ["eléctric"],
-        "hybrid": ["bev", "fcev", "hev", "erev"]
+        "hybrid": ["fcev", "hev", "erev"]
     },
     "carVersionFuelMap": {
         "sin plomo": "gasolina",
@@ -26,17 +26,21 @@
         },
         "gasolineHybrid": {
             "value": "sin plomo",
-            "engines": ["bev", "fcev", "hev", "erev"]
+            "engines": ["fcev", "hev", "erev"]
         },
         "gasoilHybrid": {
             "value": "diésel",
-            "engines": ["bev", "fcev", "hev", "erev"]
+            "engines": ["fcev", "hev", "erev"]
         }
     },
+    "configuratorFilter": false,
     "configuratorFilterStyle": ["Green", "Berlina", "Citycar", "Familiare/Lavoro", "Sportiva", "Suv/Crossover"],
     "headerSearch": false,
     "horizonIndexScoreMax": 0.15,
     "horizonIndexScoreWeight": 10000,
     "horizonOffices": [],
+    "ivaSwitch": false,
+    "mapCenter": {"latitude": 40.4168, "longitude": -3.7038},
+    "offerStoreMap": false,
     "telephonePrefix": "+34"
 }

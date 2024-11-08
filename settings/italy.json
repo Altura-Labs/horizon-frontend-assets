@@ -1,7 +1,7 @@
 {
     "carBadges": {
         "electric": ["elettric"],
-        "hybrid": ["bev", "fcev", "hev", "erev"]
+        "hybrid": ["fcev", "hev", "erev"]
     },
     "carVersionFuelMap": {
         "senza piombo": "benzina",
@@ -26,13 +26,14 @@
         },
         "gasolineHybrid": {
             "value": "senza piombo",
-            "engines": ["bev", "fcev", "hev", "erev"]
+            "engines": ["fcev", "hev", "erev"]
         },
         "gasoilHybrid": {
             "value": "diesel",
-            "engines": ["bev", "fcev", "hev", "erev"]
+            "engines": ["fcev", "hev", "erev"]
         }
     },
+    "configuratorFilter": true,
     "configuratorFilterStyle": ["Green", "Berlina", "Citycar", "Familiare/Lavoro", "Sportiva", "Suv/Crossover"],
     "headerSearch": true,
     "horizonIndexScoreMax": 0.15,
@@ -59,5 +60,8 @@
             "address": "Via Pomezia 3, 63074 San Benedetto del Tronto"
         }
     ],
+    "ivaSwitch": true,
+    "mapCenter": {"latitude": 41.8719, "longitude": 12.5674},
+    "offerStoreMap": true,
     "telephonePrefix": "+39"
 }
