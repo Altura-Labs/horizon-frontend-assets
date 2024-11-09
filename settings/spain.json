@@ -1,13 +1,10 @@
 {
-    "carBadges": {
-        "electric": ["eléctric"],
-        "hybrid": ["fcev", "hev", "erev"]
-    },
-    "carVersionFuelMap": {
+    "car_version_fuel_map": {
         "sin plomo": "gasolina",
         "alto octanaje sin plomo": "gasolina"
     },
-    "configuratorFilterFuel": {
+    "configurator_filter_enabled": false,
+    "configurator_filter_fuel": {
         "gasoline": {
             "value": "sin plomo",
             "engines": null
@@ -24,23 +21,26 @@
             "value": "glp",
             "engines": null
         },
-        "gasolineHybrid": {
+        "gasoline_hybrid": {
             "value": "sin plomo",
             "engines": ["fcev", "hev", "erev"]
         },
-        "gasoilHybrid": {
+        "gasoil_hybrid": {
             "value": "diésel",
             "engines": ["fcev", "hev", "erev"]
         }
     },
-    "configuratorFilter": false,
-    "configuratorFilterStyle": ["Green", "Berlina", "Citycar", "Familiare/Lavoro", "Sportiva", "Suv/Crossover"],
-    "headerSearch": false,
-    "horizonIndexScoreMax": 0.15,
-    "horizonIndexScoreWeight": 10000,
-    "horizonOffices": [],
-    "ivaSwitch": false,
-    "mapCenter": {"latitude": 40.4168, "longitude": -3.7038},
-    "offerStoreMap": false,
-    "telephonePrefix": "+34"
+    "configurator_filter_style": ["Green", "Berlina", "Citycar", "Familiare/Lavoro", "Sportiva", "Suv/Crossover"],
+    "header_search_enabled": false,
+    "horizon_offices": [],
+    "iva_switch_enabled": false,
+    "local_telephone_prefix": "+34",
+    "map_center": {"latitude": 40.4168, "longitude": -3.7038},
+    "offer_badges": {
+        "electric": ["eléctric"],
+        "hybrid": ["fcev", "hev", "erev"]
+    },
+    "offer_index_score_max": 0.15,
+    "offer_index_score_weight": 10000,
+    "offer_store_map_enabled": false
 }

@@ -1,13 +1,10 @@
 {
-    "carBadges": {
-        "electric": ["elettric"],
-        "hybrid": ["fcev", "hev", "erev"]
-    },
-    "carVersionFuelMap": {
+    "car_version_fuel_map": {
         "senza piombo": "benzina",
         "senza piombo \"premium\"": "benzina"
     },
-    "configuratorFilterFuel": {
+    "configurator_filter_enabled": true,
+    "configurator_filter_fuel": {
         "gasoline": {
             "value": "senza piombo",
             "engines": null
@@ -24,21 +21,18 @@
             "value": "gpl",
             "engines": null
         },
-        "gasolineHybrid": {
+        "gasoline_hybrid": {
             "value": "senza piombo",
             "engines": ["fcev", "hev", "erev"]
         },
-        "gasoilHybrid": {
+        "gasoil_hybrid": {
             "value": "diesel",
             "engines": ["fcev", "hev", "erev"]
         }
     },
-    "configuratorFilter": true,
-    "configuratorFilterStyle": ["Green", "Berlina", "Citycar", "Familiare/Lavoro", "Sportiva", "Suv/Crossover"],
-    "headerSearch": true,
-    "horizonIndexScoreMax": 0.15,
-    "horizonIndexScoreWeight": 10000,
-    "horizonOffices": [
+    "configurator_filter_style": ["Green", "Berlina", "Citycar", "Familiare/Lavoro", "Sportiva", "Suv/Crossover"],
+    "header_search_enabled": true,
+    "horizon_offices": [
         {
             "name": "Sede Centrale Milano",
             "address": "Via Copernico 4, 20090 Trezzano Sul Naviglio"
@@ -60,8 +54,14 @@
             "address": "Via Pomezia 3, 63074 San Benedetto del Tronto"
         }
     ],
-    "ivaSwitch": true,
-    "mapCenter": {"latitude": 41.8719, "longitude": 12.5674},
-    "offerStoreMap": true,
-    "telephonePrefix": "+39"
+    "iva_switch_enabled": true,
+    "local_telephone_prefix": "+39",
+    "map_center": {"latitude": 41.8719, "longitude": 12.5674},
+    "offer_badges": {
+        "electric": ["elettric"],
+        "hybrid": ["fcev", "hev", "erev"]
+    },
+    "offer_index_score_max": 0.15,
+    "offer_index_score_weight": 10000,
+    "offer_store_map_enabled": true
 }
