@@ -31,9 +31,9 @@
         }
     },
     "configurator_filter_style": ["Green", "Berlina", "Citycar", "Familiare/Lavoro", "Sportiva", "Suv/Crossover"],
-    "header_search_enabled": false,
+    "header_search_enabled": true,
     "horizon_offices": [],
-    "iva_switch_enabled": false,
+    "iva_switch_enabled": true,
     "local_telephone_prefix": "+34",
     "map_center": {"latitude": 40.4168, "longitude": -3.7038},
     "offer_badges": {
