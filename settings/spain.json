@@ -38,9 +38,11 @@
     "map_center": {"latitude": 40.4168, "longitude": -3.7038},
     "offer_badges": {
         "electric": ["eléctric"],
-        "hybrid": ["fcev", "hev", "erev"]
+        "hybrid": ["fcev", "hev", "erev"],
+        "phev": ["phev"]
     },
     "offer_index_score_max": 0.15,
     "offer_index_score_weight": 10000,
-    "offer_store_map_enabled": false
+    "offer_store_map_enabled": false,
+    "price_with_vat": true
 }
